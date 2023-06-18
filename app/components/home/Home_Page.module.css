@@ -1,0 +1,47 @@
+.desktop_image {
+  @apply hidden  md:block h-full;
+}
+.tablet_image {
+  @apply hidden  sm:block h-full md:hidden;
+}
+.mobile_image {
+  @apply h-full sm:hidden;
+}
+.explore {
+  @apply absolute bg-white rounded-full
+  w-[150px] h-[150px] left-[113px] top-[469px]
+  sm:w-[242px] sm:h-[242px] sm:left-[263px] sm:top-[692px]
+  md:w-[274px] md:h-[274px] md:left-[1001px] md:top-[495px];
+}
+.explore_text {
+  @apply absolute uppercase font-normal text-[#0B0D17]
+  text-[20px] leading-[23px] tracking-[1.25px] text-center
+  sm:text-[32px] sm:leading-[37px] sm:tracking-[2px] 
+  
+  h-[23px] left-[19.67%] right-[18.33%] top-[calc(50%-23px/2+4.5px)]
+  sm:h-[37px] sm:left-[19.01%] sm:right-[19.83%] sm:top-[calc(50%-37px/2+0.5px)]
+  md:h-[37px] md:left-[22.63%] md:right-[23.36%] md:top-[calc(50%-37px/2+0.5px)];
+}
+.space {
+  @apply absolute w-[327px] h-[276px] left-[24px] top-[112px]
+  sm:w-[450px] sm:h-[334px] sm:left-[159px] sm:top-[202px]
+  md:h-[382px] md:left-[190px] md:top-[375px];
+}
+.space_title {
+  @apply absolute font-normal uppercase  text-[#D0D6F9] text-center 
+  text-[15px] leading-[19px] tracking-[2.7px] h-[19px] left-[16.82%] right-[16.82%] top-[calc(50%-19px/2-128.5px)]
+  sm:text-[19px] sm:leading-[24px] sm:tracking-[3.375px] sm:h-[24px] sm:left-[20%] sm:right-[19.78%] sm:top-[calc(50%-24px/2-155.5px)]
+  md:text-[27px] md:leading-[34px] md:tracking-[4.725px] md:h-[34px] md:left-[0.11%] md:right-[15.67%] md:top-[calc(50%-34px/2-174px)];
+}
+.space_subtitle {
+  @apply absolute font-normal text-[#FFFFFF] uppercase text-center 
+  text-[80px] leading-[100px] h-[100px] left-[0%] right-[0%] top-[calc(50%-100px/2-53px)]
+  sm:text-[150px] sm:leading-[150px] sm:h-[100%] sm:right-[1.11%] sm:top-[calc(50%-150px/2-44px)]
+  md:leading-[172px] md:h-[172] md:top-[calc(50%-172px/2-47px)];
+}
+.space_text {
+  @apply absolute font-normal text-[#D0D6F9] text-center 
+  text-[15px] leading-[25px] h-[125px] left-[0%] right-[0%] top-[calc(50%-125px/2+75.5px)]
+  sm:text-[16px] sm:leading-[175%] sm:h-[112px] sm:left-[0.67%] sm:right-[0.67%] sm:top-[calc(50%-112px/2+111px)]
+  md:text-[18px] md:leading-[178%] md:h-[128px] md:left-[0.11%] md:right-[1.22%] md:top-[calc(50%-128px/2+127px)];
+}
