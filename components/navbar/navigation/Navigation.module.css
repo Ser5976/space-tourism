@@ -1,0 +1,28 @@
+.nav {
+  @apply hidden
+sm:block sm:bg-[rgb(255,255,255,0.04)] sm:absolute sm:backdrop-blur-[40.7742px] 
+sm:w-[450px] sm:h-[96px] sm:left-[263px] sm:top-[0px] 
+ md:w-[830px] md:h-[94px] md:left-[555px] md:top-[2px];
+}
+.nav_links {
+  @apply absolute w-[356px] h-[96px] left-[48px] top-[0px] flex   
+  md:w-[542px] md:h-[94px] md:left-[123px] md:top-[0px];
+}
+.wrapper {
+  @apply flex gap-[12px] items-center  w-[127px] h-[96px] uppercase text-[#FFFFFF] text-[14px] leading-[17px] tracking-[2.3625px] 
+  mx-[18.5px] font-normal
+  md:text-[16px] md:leading-[19px] md:tracking-[2.7px];
+}
+.wrapper:first-child {
+  @apply ml-0;
+}
+.wrapper:last-child {
+  @apply mr-0;
+}
+.wrapper_number {
+  @apply hidden
+  md:block md:font-[700];
+}
+.wrapper_active {
+  @apply border-b-[3px] border-[#FFFFFF];
+}

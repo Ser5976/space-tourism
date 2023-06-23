@@ -1,10 +1,11 @@
 import './globals.css';
 import Head from 'next/head';
-import { barlow } from './fonts';
+import { barlow } from '../data/fonts/fonts';
+import Navbar from '@/components/navbar/Navbar';
 
 export const metadata = {
-  title: 'Space-Tourism',
-  description: 'space travel',
+  title: 'Space tourism website',
+  description: 'Frontend Mentor, challenge space tourism website ',
 };
 
 export default function RootLayout({
@@ -18,7 +19,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body className={barlow.className}>
-        <div className=" relative w-[375px] h-[667px] m-auto sm:w-[768px] sm:h-[1024px] md:w-[1440px] md:h-[900px]">
+        <div className=" relative w-[375px] h-[667px] mx-auto sm:w-[768px] sm:h-[1024px] md:w-[1440px] md:h-[900px]">
+          <Navbar />
           {children}
         </div>
       </body>

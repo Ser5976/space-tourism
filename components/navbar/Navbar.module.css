@@ -1,0 +1,14 @@
+.header {
+  @apply sm:absolute sm:w-[729px] sm:h-[96px] sm:left-[39px] sm:top-[0px] sm:z-10
+  md:w-[1385px] md:h-[96px] md:left-[55px] md:top-[40px] md:z-10;
+}
+.logo {
+  @apply absolute bg-[#FFFFFF] rounded-full z-10 w-[40px] h-[40px] left-[24px] top-[24px]
+  sm:w-[48px] sm:h-[48px] sm:left-[0px] sm:top-[24px]
+  md:left-[0px] md:top-[24px];
+}
+
+.rectangel {
+  @apply md:absolute md:bg-[#FFFFFF] md:mix-blend-normal opacity-[0.12] z-10
+  md:w-[473px] md:h-[1px] md:left-[112px] md:top-[48px];
+}
