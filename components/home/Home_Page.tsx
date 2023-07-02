@@ -4,8 +4,8 @@ import styles from './Home_Page.module.css';
 
 const HomePage = () => {
   return (
-    <>
-      <Image
+    <div className={styles.container}>
+      {/* <Image
         src="/home/desktop.jpg"
         alt="фоновая картинка"
         fill
@@ -22,8 +22,8 @@ const HomePage = () => {
         alt="фоновая картинка"
         fill
         className={styles.mobile_image}
-      />
-      <div className={styles.space}>
+      /> */}
+      {/* <div className={styles.space}>
         <div className={`${styles.space_title} ${barlowCondensed.className}`}>
           So, you want to travel to
         </div>
@@ -40,8 +40,8 @@ const HomePage = () => {
 
       <div className={`${styles.explore} ${bellefair.className}`}>
         <div className={styles.explore_text}>Explore</div>
-      </div>
-    </>
+      </div> */}
+    </div>
   );
 };
 

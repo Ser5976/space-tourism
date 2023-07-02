@@ -1,3 +1,15 @@
+.container {
+  width: 1700px;
+  background-image: url('/home/desktop.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
+/* max-w-[375px] min-h-[667px] bg-[url('/home/mobile.jpg')] bg-size sm:bg-[url('/home/tablet.jpg')] 
+lg:bg-[url('/home/desktop.jpg')]
+  lg:pt-[40px]; */
+
 .desktop_image {
   @apply hidden  md:block h-full;
 }
