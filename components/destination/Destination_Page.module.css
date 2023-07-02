@@ -1,0 +1,64 @@
+.desktop_image {
+  @apply hidden  md:block h-full;
+}
+.tablet_image {
+  @apply hidden  sm:block h-full md:hidden;
+}
+.mobile_image {
+  @apply h-[850px] sm:hidden;
+}
+.image {
+  @apply absolute flex-shrink-0 z-10
+  w-[170px] h-[170px] left-[103px] top-[139px]
+  sm:w-[300px] sm:h-[300px] sm:left-[234px] sm:top-[220px]
+  md:w-[445px] md:h-[445px] md:left-[230px] md:top-[343px];
+}
+.title {
+  @apply absolute text-[#FFFFFF] text-center  text-[56px] uppercase
+  left-[94.5px] top-[383px]
+  sm:text-[80px] sm:left-[251.5px] sm:top-[639px]
+  md:text-[100px] md:left-[832.5px] md:top-[381px];
+}
+.text {
+  @apply flex flex-shrink-0 flex-col absolute w-[327px] text-[#D0D6F9] text-center font-normal 
+  leading-[25px] text-[15px] left-[24px] top-[448px]
+  sm:w-[573px] sm:text-[16px] sm:leading-[28px] sm:left-[97px] sm:top-[739px]
+  md:w-[444px] md:text-[18px] md:leading-[32px] md:left-[832px] md:top-[510px] md:text-left;
+}
+
+.rectangel {
+  @apply absolute w-[327px] h-[1px] bg-[#383B4B] left-[24px] top-[605px]  z-10
+  sm:w-[573px] sm:left-[97px] sm:top-[872px]
+  md:w-[444px] md:left-[833px] md:top-[692px];
+}
+.footer {
+  @apply sm:w-[573px] sm:h-[90px] sm:flex sm:gap-[11px] sm:flex-shrink-0 sm:ml-[97px] sm:mr-[98px]
+  sm:pt-[901px] sm:pb-[62px] sm:pl-[65.5px] sm:pr-[57.5px]  sm:items-start
+  md:w-[445px] md:ml-[832.5px] md:pt-[721px]  md:pb-[118px] md:px-0 md:items-start;
+}
+.distance {
+  @apply mx-auto pt-[638px]  flex flex-col justify-center items-start gap-[12px] w-[216px]
+  sm:m-0 sm:pt-0
+  md:justify-start;
+}
+.distance_title {
+  @apply flex flex-col w-[216px] text-[#D0D6F9] text-center text-[14px] tracking-[2.362px] uppercase z-10
+  md:text-left;
+}
+.distance_volume {
+  @apply flex flex-col text-center text-[#FFFFFF] text-[28px] uppercase w-[216px] z-10
+  md:text-left;
+}
+.time {
+  @apply mx-auto mt-[32px]   flex flex-col justify-center items-start gap-[12px] w-[223px]
+  sm:m-0 pt-0
+  md:justify-start;
+}
+.time_title {
+  @apply flex flex-col w-[223px] text-[#D0D6F9] text-center text-[14px] tracking-[2.362px] uppercase z-10
+  md:text-left;
+}
+.time_volume {
+  @apply flex flex-col mb-[57px] text-center text-[#FFFFFF] text-[28px] uppercase w-[223px] z-10
+  sm:m-0 md:text-left;
+}

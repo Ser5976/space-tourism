@@ -1,0 +1,9 @@
+.container {
+  @apply absolute inline-flex gap-[18px] items-start pr-[4px] left-[77.5px] top-[83px]
+    text-[#FFFFFF] text-[16px] tracking-[2.7px] uppercase z-10
+    sm:gap-[19px] sm:left-[38.5px] sm:top-[136px] sm:text-[20px] sm:tracking-[3.375px]
+    md:pr-0 md:gap-[28px] md:left-[166.5px] md:top-[212px] md:text-[28px] md:tracking-[4.725px];
+}
+.number {
+  @apply font-[700px] opacity-[0.25];
+}

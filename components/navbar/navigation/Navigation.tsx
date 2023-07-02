@@ -1,22 +1,26 @@
 'use client';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 import cn from 'classnames';
 import styles from './Navigation.module.css';
-import { barlowCondensed } from '../../../data/fonts/fonts';
+import { barlowCondensed } from '../../../fonts/fonts';
 import { headerLinks } from '../../../data/data';
 import { usePathname } from 'next/navigation';
 
 const Navigation = () => {
   const pathname = usePathname();
+
   return (
     <nav className={styles.nav}>
       <div className={styles.nav_links}>
         {headerLinks.map((item) => {
           return (
             <div
+              key={item.link}
               className={cn(styles.wrapper, barlowCondensed.className, {
-                [styles.wrapper_active]: pathname === item.href,
+                [styles.wrapper_active]:
+                  `/${pathname.split('/')[1]}` === item.href,
+                // т.к. у нас есть подменю на странице, в url нам  нужна первая часть адреса
               })}
             >
               <div className={styles.wrapper_number}>{item.number}</div>
