@@ -12,25 +12,23 @@ const Navigation = () => {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.nav_links}>
-        {headerLinks.map((item) => {
-          return (
-            <div
-              key={item.link}
-              className={cn(styles.wrapper, barlowCondensed.className, {
-                [styles.wrapper_active]:
-                  `/${pathname.split('/')[1]}` === item.href,
-                // т.к. у нас есть подменю на странице, в url нам  нужна первая часть адреса
-              })}
-            >
-              <div className={styles.wrapper_number}>{item.number}</div>
-              <Link href={item.href} className={styles.wrapper_link}>
-                {item.link}
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+      {headerLinks.map((item) => {
+        return (
+          <div
+            key={item.link}
+            className={cn(styles.wrapper, barlowCondensed.className, {
+              [styles.wrapper_active]:
+                `/${pathname.split('/')[1]}` === item.href,
+              // т.к. у нас есть подменю на странице, в url нам  нужна первая часть адреса
+            })}
+          >
+            <div className={styles.wrapper_number}>{item.number}</div>
+            <Link href={item.href} className={styles.wrapper_link}>
+              {item.link}
+            </Link>
+          </div>
+        );
+      })}
     </nav>
   );
 };

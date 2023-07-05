@@ -1,16 +1,15 @@
 .container {
-  width: 1700px;
-  background-image: url('/home/desktop.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 900px;
+  @apply max-w-[375px] h-[667px] mt-[-64px] bg-[url('/home/mobile.jpg')] bg-contain bg-no-repeat 
+  sm:max-w-[768px] sm:h-[1024px] sm:mt-[-96px] sm:bg-[url('/home/tablet.jpg')]
+  lg:max-w-full lg:h-[900px] lg:bg-[url('/home/desktop.jpg')] lg:bg-[length:100%_100%] lg:mt-[-136px];
 }
-/* max-w-[375px] min-h-[667px] bg-[url('/home/mobile.jpg')] bg-size sm:bg-[url('/home/tablet.jpg')] 
-lg:bg-[url('/home/desktop.jpg')]
-  lg:pt-[40px]; */
-
-.desktop_image {
+max-w-[375px]
+  min-h-[667px]
+  sm:max-w-[768px]
+  sm:h-[1024px]
+  ld:w-[1400px]
+  ld:h-[900px]
+  .desktop_image {
   @apply hidden  md:block h-full;
 }
 .tablet_image {
