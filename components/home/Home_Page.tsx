@@ -4,8 +4,8 @@ import styles from './Home_Page.module.css';
 
 const HomePage = () => {
   return (
-    <>
-      <Image
+    <div className={styles.container}>
+      {/* <Image
         src="/home/desktop.jpg"
         alt="фоновая картинка"
         fill
@@ -22,8 +22,8 @@ const HomePage = () => {
         alt="фоновая картинка"
         fill
         className={styles.mobile_image}
-      />
-    </>
+      /> */}
+    </div>
   );
 };
 

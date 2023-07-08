@@ -16,11 +16,13 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width" />
       </Head>
-      <body className={`${barlow.className}`}>
-        <Navbar />
-        {children}
+      <body className={`${barlow.className} `}>
+        <div className=" mx-auto  max-w-[375px] h-[667px] sm:max-w-[768px] sm:h-[1024px] lg:max-w-[1440px] lg:h-[900px]">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );

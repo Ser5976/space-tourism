@@ -1,35 +1,25 @@
 .nav {
   @apply hidden
-  sm:flex sm:bg-[rgb(255,255,255,0.04)] sm:backdrop-blur-[40.7742px]
-  sm:w-[450px] sm:h-[96px] sm:gap-[42px]
+  sm:flex sm:bg-[rgb(255,255,255,0.04)] sm:backdrop-blur-[40.7742px] 
+  sm:w-[450px] sm:h-[96px] sm:gap-[42px] 
   lg:w-[830px] lg:h-[96px] lg:gap-[50px];
 }
 
-.na {
-  @apply hidden
-sm:block  sm:bg-[rgb(255,255,255,0.04)] sm:backdrop-blur-[40.7742px] 
-sm:w-[450px] sm:h-[96px] 
- lg:w-[830px] lg:h-[96px] lg:pt-[2px];
-}
-.nav_links {
-  @apply absolute w-[356px] h-[96px] left-[48px] top-[0px] flex   
-  lg:w-[542px] lg:h-[94px] lg:left-[123px] lg:top-[0px];
-}
 .wrapper {
-  @apply flex gap-[12px] items-center   h-[96px] uppercase text-[#FFFFFF] text-[14px] leading-[17px] tracking-[2.3625px] 
-   font-normal
+  @apply sm:flex sm:gap-[12px] sm:items-center sm:text-[14px] sm:leading-[17px] sm:tracking-[2.3625px]  
+  sm:uppercase sm:text-[#FFFFFF] sm:font-normal
   lg:text-[16px] lg:leading-[19px] lg:tracking-[2.7px];
 }
 .wrapper:first-child {
   @apply sm:ml-[48px] lg:ml-[123px];
 }
 .wrapper:last-child {
-  @apply mr-0;
+  @apply sm:mr-0;
 }
 .wrapper_number {
   @apply hidden
   lg:block lg:font-[700];
 }
 .wrapper_active {
-  @apply border-b-[3px] border-[#FFFFFF];
+  @apply sm:border-b-[3px] sm:border-[#FFFFFF];
 }

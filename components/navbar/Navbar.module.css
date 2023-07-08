@@ -1,11 +1,11 @@
 .header {
   @apply max-w-[375px] flex justify-between px-[24px] 
   sm:max-w-[729px] sm:h-[96px] sm:ml-[39px] sm:flex sm:items-center sm:justify-between sm:px-0
-  lg:max-w-[100%] lg:ml-[3.9%] lg:mt-[40px];
+  lg:max-w-[1385px] lg:ml-[55px] lg:mt-[40px];
 }
 .logo {
-  @apply bg-[#FFFFFF] rounded-full w-[40px] h-[40px] mt-[24px]  
-  sm:w-[48px] sm:h-[48px]  sm:mt-0 sm:mr-4;
+  @apply bg-[#FFFFFF] rounded-full w-[40px] h-[40px] mt-[24px] 
+  sm:w-[48px] sm:h-[48px]  sm:mt-0;
 }
 
 .rectange {
