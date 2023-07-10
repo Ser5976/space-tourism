@@ -6,11 +6,21 @@ import Navigation from './navigation/Navigation';
 const Navbar = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <Image src="/shared/logo.svg" width={48} height={48} alt="логотип" />
+      <div className={styles.header_container}>
+        <div className={styles.logo_container}>
+          <div className={styles.logo}>
+            <Image
+              src="/shared/logo.svg"
+              width={48}
+              height={48}
+              alt="логотип"
+            />
+          </div>
+        </div>
+        <Burger />
+        <div className={styles.rectangel}></div>
+        <Navigation />
       </div>
-      <Navigation />
-      <Burger />
     </header>
   );
 };

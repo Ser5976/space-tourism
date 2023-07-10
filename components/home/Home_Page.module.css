@@ -1,7 +1,8 @@
-.container {
-  @apply max-w-[375px] h-[667px] mt-[-64px] bg-[url('/home/mobile.jpg')] bg-contain bg-no-repeat 
-  sm:max-w-[768px] sm:h-[1024px] sm:mt-[-96px] sm:bg-[url('/home/tablet.jpg')]
-  lg:max-w-[1440px] lg:h-[900px] lg:bg-[url('/home/desktop.jpg')] lg:bg-[length:100%_100%] lg:mt-[-136px];
+.main {
+  @apply absolute w-full h-full min-w-[300px] left-0 top-0
+  bg-[url('/home/mobile.jpg')] bg-center bg-no-repeat bg-cover
+  sm:bg-[url('/home/tablet.jpg')]
+  lg:bg-[url('/home/desktop.jpg')];
 }
 
 .explore {

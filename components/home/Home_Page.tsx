@@ -3,28 +3,7 @@ import Image from 'next/image';
 import styles from './Home_Page.module.css';
 
 const HomePage = () => {
-  return (
-    <div className={styles.container}>
-      {/* <Image
-        src="/home/desktop.jpg"
-        alt="фоновая картинка"
-        fill
-        className={styles.desktop_image}
-      />
-      <Image
-        src="/home/tablet.jpg"
-        alt="фоновая картинка"
-        fill
-        className={styles.tablet_image}
-      />
-      <Image
-        src="/home/mobile.jpg"
-        alt="фоновая картинка"
-        fill
-        className={styles.mobile_image}
-      /> */}
-    </div>
-  );
+  return <main className={styles.main}></main>;
 };
 
 export default HomePage;

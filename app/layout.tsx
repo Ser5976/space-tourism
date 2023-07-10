@@ -19,9 +19,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width" />
       </Head>
       <body className={`${barlow.className} `}>
-        <div className=" mx-auto  max-w-[375px] h-[667px] sm:max-w-[768px] sm:h-[1024px] lg:max-w-[1440px] lg:h-[900px]">
-          <Navbar />
-          {children}
+        <div className="wrapper">
+          <div className="page">
+            <Navbar />
+            {children}
+          </div>
         </div>
       </body>
     </html>

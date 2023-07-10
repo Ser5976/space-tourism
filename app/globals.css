@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body {
+  @apply h-[100%];
+}
+.wrapper {
+  @apply overflow-hidden min-h-full;
+}
+.page {
+  @apply absolute w-full h-full left-0;
+}
