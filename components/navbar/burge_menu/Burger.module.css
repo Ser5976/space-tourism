@@ -1,6 +1,0 @@
-.burger_menu {
-  @apply mt-[33px] w-[24px] h-[21px] flex flex-col justify-between sm:hidden;
-}
-.rectangel {
-  @apply w-[24px] h-[3px] bg-[#D0D6F9];
-}

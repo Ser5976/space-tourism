@@ -1,3 +1,5 @@
+import React, { Dispatch, SetStateAction } from 'react';
+
 export interface IHeaderLinks {
   link: string;
   number: string;
@@ -9,4 +11,12 @@ export interface IDestinationLinks {
 }
 export interface ICommonTitle {
   number: string;
+}
+export interface IBurger {
+  burgerMenu: boolean;
+  setBurgerMenu: Dispatch<SetStateAction<boolean>>;
+}
+export interface IGlobalContext {
+  close: boolean;
+  setClose: Dispatch<SetStateAction<boolean>>;
 }

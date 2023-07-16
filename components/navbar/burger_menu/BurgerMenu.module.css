@@ -1,0 +1,33 @@
+.close {
+  @apply hidden;
+}
+.wrapper {
+  @apply w-[254px] h-full absolute top-0 right-0 z-20 sm:hidden;
+}
+.pad {
+  @apply w-[254px] h-full left-0 top-0 absolute bg-white bg-opacity-10 backdrop-blur-[15.55px];
+}
+.cross {
+  @apply w-[19.09px] h-[19.09px] left-[208.45px] top-[33.95px] absolute cursor-pointer;
+}
+.cross_1 {
+  @apply w-6 h-[3px] left-[2.12px] top-[-0px] absolute origin-top-left rotate-45 bg-indigo-200;
+}
+.cross_2 {
+  @apply w-6 h-[3px] left-0 top-[16.97px] absolute origin-top-left -rotate-45 bg-indigo-200;
+}
+.menu {
+  @apply flex flex-col  pl-[32px]  pt-[118px] gap-[32px];
+}
+.link {
+  @apply w-full h-[31px] pr-0.5  items-start gap-[11px] inline-flex z-30 uppercase;
+}
+.link_number {
+  @apply text-white text-[16px] font-bold tracking-widest;
+}
+.link_title {
+  @apply text-white text-[16px] font-normal tracking-widest;
+}
+.link_active {
+  @apply border-r-[3px] sm:border-[#FFFFFF];
+}

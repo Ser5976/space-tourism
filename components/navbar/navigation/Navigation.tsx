@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import React, { useState } from 'react';
 import cn from 'classnames';
 import styles from './Navigation.module.css';
 import { barlowCondensed } from '../../../fonts/fonts';

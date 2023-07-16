@@ -1,25 +1,25 @@
 .nav {
   @apply hidden
-  sm:flex sm:bg-[rgb(255,255,255,0.04)] sm:backdrop-blur-[40.7742px] 
-  sm:w-[450px] sm:h-[96px] sm:gap-[42px] 
+  min-[470px]:flex bg-white bg-opacity-10 backdrop-blur-[15.55px] 
+  min-[470px]:w-[450px] min-[470px]:h-[96px] min-[470px]:gap-[20px] min-[550px]:gap-[42px] 
   lg:w-[830px] lg:h-[96px] lg:gap-[50px];
 }
 
 .wrapper {
-  @apply sm:flex sm:gap-[12px] sm:items-center sm:text-[14px] sm:leading-[17px] sm:tracking-[2.3625px]  
-  sm:uppercase sm:text-[#FFFFFF] sm:font-normal
+  @apply min-[470px]:flex min-[470px]:gap-[12px] min-[470px]:items-center min-[470px]:text-[14px] min-[470px]:leading-[17px] min-[470px]:tracking-[2.3625px]  
+  min-[470px]:uppercase min-[470px]:text-[#FFFFFF] min-[470px]:font-normal
   lg:text-[16px] lg:leading-[19px] lg:tracking-[2.7px];
 }
 .wrapper:first-child {
-  @apply sm:ml-[48px] lg:ml-[123px];
+  @apply min-[470px]:ml-[48px] lg:ml-[85px];
 }
 .wrapper:last-child {
-  @apply sm:mr-0;
+  @apply min-[470px]:mr-0 lg:mr-[25px];
 }
 .wrapper_number {
   @apply hidden
   lg:block lg:font-[700];
 }
 .wrapper_active {
-  @apply sm:border-b-[3px] sm:border-[#FFFFFF];
+  @apply min-[470px]:border-b-[3px] min-[470px]:border-[#FFFFFF];
 }
