@@ -14,7 +14,8 @@ const BurgerMenu = () => {
   const { close, setClose } = useContext(Context);
   return (
     <div
-      className={cn(styles.wrapper, {
+      className={cn({
+        [styles.wrapper]: !close,
         [styles.close]: close,
       })}
     >

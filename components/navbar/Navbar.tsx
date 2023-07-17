@@ -18,9 +18,9 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <Burger />
           <div className={styles.space}></div>
           <div className={styles.rectangel}></div>
+          <Burger />
           <Navigation />
         </div>
       </header>

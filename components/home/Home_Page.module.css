@@ -15,7 +15,7 @@
 }
 .space2 {
   @apply hidden
-  lg:block lg:grow;
+  lg:block lg:grow lg:max-w-[150px];
 }
 
 .card_left {

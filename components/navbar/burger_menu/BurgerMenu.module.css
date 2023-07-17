@@ -1,8 +1,8 @@
-.close {
-  @apply hidden;
-}
 .wrapper {
-  @apply w-[254px] h-full absolute top-0 right-0 z-20 sm:hidden;
+  @apply w-[254px] h-full fixed top-0 right-0 transition-all duration-500 z-20;
+}
+.close {
+  @apply w-[254px] h-full fixed top-0 right-[-254px] transition-all duration-500 z-20;
 }
 .pad {
   @apply w-[254px] h-full left-0 top-0 absolute bg-white bg-opacity-10 backdrop-blur-[15.55px];
