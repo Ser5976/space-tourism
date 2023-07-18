@@ -5,27 +5,6 @@ import styles from './Destination_Page.module.css';
 const MoonPage = () => {
   return (
     <>
-      <Image
-        src="/destination/desktop.jpg"
-        alt="фоновая картинка"
-        fill
-        priority
-        className={styles.desktop_image}
-      />
-      <Image
-        src="/destination/tablet.jpg"
-        alt="фоновая картинка"
-        fill
-        priority
-        className={styles.tablet_image}
-      />
-      <Image
-        src="/destination/mobile.jpg"
-        alt="фоновая картинка"
-        fill
-        priority
-        className={styles.mobile_image}
-      />
       <div className={styles.image}>
         <Image
           src="/destination/image-moon.webp"

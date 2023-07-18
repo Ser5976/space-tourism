@@ -1,5 +1,5 @@
 .wrapper {
-  @apply w-[254px] h-full fixed top-0 right-0 transition-all duration-500 z-20;
+  @apply w-[254px] h-full fixed top-0 right-0 transition-all duration-500 z-20 min-[470px]:hidden;
 }
 .close {
   @apply w-[254px] h-full fixed top-0 right-[-254px] transition-all duration-500 z-20;

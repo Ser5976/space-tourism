@@ -1,6 +1,5 @@
 import CommonTitle from '@/components/common_title/CommonTitle';
-import Navigation from '@/components/destination/navigation/Navigation';
-import '../globals.css';
+import styles from './Destination.module.css';
 
 export const metadata = {
   title: 'Space tourism/Destination ',
@@ -12,10 +11,10 @@ export default function DestinationLayout({
   children: React.ReactNode;
 }) {
   return (
-    <>
+    <main className={styles.main}>
       <CommonTitle number="01" />
-      <Navigation />
+
       {children}
-    </>
+    </main>
   );
 }
