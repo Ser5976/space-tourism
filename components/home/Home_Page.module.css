@@ -1,49 +1,53 @@
 .main {
-  @apply absolute flex w-full h-full min-w-[240px]  left-0 top-0
+  @apply absolute flex flex-col w-full h-full min-h-[667px] min-w-[250px]  left-0 top-0
   bg-[url('/home/mobile.jpg')] bg-center bg-no-repeat bg-cover
-  min-[470px]:bg-[url('/home/tablet.jpg')] min-[470px]:h-[1024px]
-  lg:bg-[url('/home/desktop.jpg')] lg:h-[900px];
+  min-[470px]:bg-[url('/home/tablet.jpg')] min-[470px]:min-h-[1024px]
+  lg:bg-[url('/home/desktop.jpg')] lg:min-h-[900px];
 }
 .content_container {
-  @apply flex z-10  max-w-[357px] min-w-[240px] px-[15px] mt-[108px] mx-auto flex-col
-  min-[470px]:max-w-[442px] min-[470px]:mt-[200px] min-[470px]:px-0 
-  lg:max-w-full lg:mt-[387px] lg:h-[382px] lg:pl-[165px] lg:flex-row grow lg:mx-0;
-}
-.space {
-  @apply hidden
-  lg:block lg:grow;
-}
-.space2 {
-  @apply hidden
-  lg:block lg:grow lg:max-w-[150px];
+  @apply flex flex-col max-w-[330px] px-[10px] pt-[108px] gap-[75px] mx-auto
+  min-[470px]:max-w-[450px] min-[470px]:pt-[200px] min-[470px]:gap-[156px] min-[470px]:mx-auto
+   lg:flex-row lg:pt-[387px] lg:gap-0 lg:max-w-none lg:mx-0;
 }
 
-.card_left {
-  @apply max-w-[327px] h-[276px]  flex-col items-center gap-4 inline-flex 
-  min-[470px]:max-w-[450px] min-[470px]:h-[334px]  min-[470px]:gap-6  min-[470px]:mb-[65px] 
+.space_1 {
+  @apply hidden
+  lg:block lg:grow lg:max-w-[165px];
+}
+.space_2 {
+  @apply hidden
+  lg:block lg:grow lg:min-w-[200px];
+}
+.space_3 {
+  @apply hidden
+  lg:block lg:grow lg:max-w-[165px];
+}
+
+.section_1 {
+  @apply max-w-[327px] h-[276px]  flex-col inline-flex items-center gap-4    
+  min-[470px]:max-w-[450px] min-[470px]:h-[334px]  min-[470px]:gap-6 
   lg:max-w-[450px] lg:h-[382px]   lg:items-start lg:gap-6  lg:mb-0;
 }
 
-.card_title {
+.title {
   @apply text-indigo-200 font-normal text-[16px] tracking-widest text-center
   min-[470px]:text-xl min-[470px]:tracking-[3.38px] 
   lg:text-[28px] lg:tracking-[4.725px];
 }
-.card_subtitle {
+.subtitle {
   @apply text-white font-normal text-[80px] leading-normal text-center
   min-[470px]:text-[150px] min-[470px]:leading-[150px]
   lg:text-[150px] lg:leading-[172px];
 }
-.card_description {
+.description {
   @apply text-indigo-200 font-normal max-w-[327px] text-[15px]  leading-normal text-center 
   min-[470px]:max-w-[444px]  min-[470px]:leading-7 min-[470px]:text-center min-[470px]:text-base
   lg:text-[18px] lg:max-w-[444px]  lg:leading-[178%] lg:text-left;
 }
 
-.card_right {
-  @apply max-w-[327px] h-[226px] flex  justify-center items-end 
-  min-[470px]:max-w-[450px] min-[470px]:h-[334px]  
-  lg:w-[450px] lg:max-w-none lg:h-[382px]   lg:items-end lg:justify-end lg:ml-[125px] lg:mr-[25px];
+.section_2 {
+  @apply flex  justify-center items-end 
+ lg:items-end lg:justify-center;
 }
 
 .explore_container {

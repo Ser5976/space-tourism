@@ -9,5 +9,5 @@
   @apply overflow-hidden min-h-full;
 }
 .page {
-  @apply absolute top-0 left-0 w-full min-w-[240px] h-full;
+  @apply absolute top-0 left-0 w-full min-w-[250px] h-full;
 }

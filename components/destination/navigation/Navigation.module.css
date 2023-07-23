@@ -1,12 +1,11 @@
 .navigation {
-  @apply absolute w-[237.5px] h-[28px] flex flex-shrink-0 gap-[27px] items-start z-10 left-[69px] top-[335px]
-  sm:w-[285.5px] sm:h-[34px] sm:left-[241.5px] sm:top-[573px]
-  md:left-[832.5px] md:top-[310px];
+  @apply max-w-[237.5px] h-[28px] flex gap-[15px] items-start min-[270px]:gap-[27px]
+  min-[470px]:max-w-[285.5px] min-[470px]:h-[34px] min-[470px]:gap-[36px];
 }
 
 .wrapper {
   @apply uppercase text-[#D0D6F9] text-[14px] tracking-[2.362px] h-[25px]
-  sm:text-[16px] sm:tracking-[2.7px] sm:h-[31px];
+  min-[470px]:text-[16px] min-[470px]:tracking-[2.7px] min-[470px]:h-[31px];
 }
 .wrapper:first-child {
   @apply ml-0;

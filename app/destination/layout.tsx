@@ -13,7 +13,6 @@ export default function DestinationLayout({
   return (
     <main className={styles.main}>
       <CommonTitle number="01" />
-
       {children}
     </main>
   );
