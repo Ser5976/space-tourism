@@ -3,14 +3,14 @@ import Image from 'next/image';
 import styles from './Destination_Page.module.css';
 import Navigation from './navigation/Navigation';
 
-const MarsPage = () => {
+const EuropaPage = () => {
   return (
     <div className={styles.container_content}>
       <div className={styles.space_3}></div>
       <div className={styles.section_1}>
         <div className={styles.image}>
           <Image
-            src="/destination/image-mars.webp"
+            src="/destination/image-europa.webp"
             alt="фоновая картинка"
             width={445}
             height={445}
@@ -22,11 +22,12 @@ const MarsPage = () => {
       <div className={styles.space_2}></div>
       <div className={styles.section_2}>
         <Navigation />
-        <div className={`${styles.title} ${bellefair.className}`}>Mars</div>
+        <div className={`${styles.title} ${bellefair.className}`}>Europa</div>
         <div className={styles.text}>
-          Don’t forget to pack your hiking boots. You’ll need them to tackle
-          Olympus Mons, the tallest planetary mountain in our solar system. It’s
-          two and a half times the size of Everest!
+          The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+          winter lover’s dream. With an icy surface, it’s perfect for a bit of
+          ice skating, curling, hockey, or simple relaxation in your snug
+          wintery cabin.
         </div>
         <div className={styles.rectangel}></div>
         <div className={styles.footer}>
@@ -37,7 +38,7 @@ const MarsPage = () => {
               AVG. DISTANCE
             </div>
             <div className={`${styles.distance_volume} ${bellefair.className}`}>
-              225 MIL.km
+              628 MIL.km
             </div>
           </div>
           <div className={styles.time}>
@@ -47,7 +48,7 @@ const MarsPage = () => {
               Est. travel time
             </div>
             <div className={`${styles.time_volume} ${bellefair.className}`}>
-              9 months
+              3 year
             </div>
           </div>
         </div>
@@ -57,4 +58,4 @@ const MarsPage = () => {
   );
 };
 
-export default MarsPage;
+export default EuropaPage;

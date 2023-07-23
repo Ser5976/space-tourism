@@ -9,6 +9,6 @@ export const headerLinks: IHeaderLinks[] = [
 export const destinationLinks: IDestinationLinks[] = [
   { link: 'moon', href: '/destination' },
   { link: 'mars', href: '/destination/mars' },
-  { link: 'europa', href: '/destenition/europa' },
+  { link: 'europa', href: '/destination/europa' },
   { link: 'titan', href: '/destination/titan' },
 ];
