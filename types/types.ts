@@ -9,8 +9,12 @@ export interface IDestinationLinks {
   link: string;
   href: string;
 }
+export interface ICrewLinks {
+  href: string;
+}
 export interface ICommonTitle {
   number: string;
+  description: string;
 }
 export interface IBurger {
   burgerMenu: boolean;

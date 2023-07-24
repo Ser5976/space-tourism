@@ -1,8 +1,8 @@
-import CrewPage from '@/components/crew/CrewPage';
+import Commander_Page from '@/components/crew/Commander_Page';
 import React from 'react';
 
 const Crew = () => {
-  return <CrewPage />;
+  return <Commander_Page />;
 };
 
 export default Crew;

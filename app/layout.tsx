@@ -19,7 +19,6 @@ export default function RootLayout({
     <html lang="ru">
       <Head>
         <meta name="viewport" content="width=device-width" />
-        <link rel="preload" href="style.css" as="style" />
       </Head>
       <body className={`${barlow.className} `}>
         <GlobalContext>

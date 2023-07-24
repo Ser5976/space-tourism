@@ -1,9 +1,14 @@
+.main {
+  @apply absolute flex flex-col w-full h-full min-h-[850px] min-w-[250px]  left-0 top-0
+    bg-[url('/destination/mobile.jpg')] bg-center bg-no-repeat bg-cover
+    min-[470px]:bg-[url('/destination/tablet.jpg')] min-[470px]:min-h-[1024px]
+    lg:bg-[url('/destination/desktop.jpg')] lg:min-h-[900px];
+}
 .container_content {
   @apply flex flex-col pt-[30px] gap-[24px] px-[10px] 
   min-[470px]:gap-[55px] 
   lg:flex-row  lg:gap-0 lg:pr-[10px] lg:justify-end;
 }
-
 .space_1 {
   @apply hidden lg:block lg:grow lg:max-w-[160px];
 }

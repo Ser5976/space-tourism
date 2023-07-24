@@ -1,4 +1,4 @@
-import { IHeaderLinks, IDestinationLinks } from '@/types/types';
+import { IHeaderLinks, IDestinationLinks, ICrewLinks } from '@/types/types';
 
 export const headerLinks: IHeaderLinks[] = [
   { link: 'home', number: '00', href: '/' },
@@ -11,4 +11,10 @@ export const destinationLinks: IDestinationLinks[] = [
   { link: 'mars', href: '/destination/mars' },
   { link: 'europa', href: '/destination/europa' },
   { link: 'titan', href: '/destination/titan' },
+];
+export const crewLinks: ICrewLinks[] = [
+  { href: '/crew' },
+  { href: '/crew/mission_specialist ' },
+  { href: '/crew/pilot' },
+  { href: '/crew/flight_engineer' },
 ];

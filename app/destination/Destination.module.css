@@ -1,6 +1,0 @@
-.main {
-  @apply absolute flex flex-col w-full h-full min-h-[850px] min-w-[250px]  left-0 top-0
-    bg-[url('/destination/mobile.jpg')] bg-center bg-no-repeat bg-cover
-    min-[470px]:bg-[url('/destination/tablet.jpg')] min-[470px]:min-h-[1024px]
-    lg:bg-[url('/destination/desktop.jpg')] lg:min-h-[900px];
-}
