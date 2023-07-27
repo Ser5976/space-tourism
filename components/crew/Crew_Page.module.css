@@ -1,13 +1,13 @@
 .main {
-  @apply absolute flex flex-col w-full h-full min-h-[850px] min-w-[250px]  left-0 top-0
+  @apply absolute flex flex-col w-full h-full min-h-[710px] min-w-[250px]  left-0 top-0
     bg-[url('/crew/mobile.jpg')] bg-center bg-no-repeat bg-cover
-    min-[470px]:bg-[url('/crew/tablet.jpg')] min-[470px]:min-h-[1024px]
+    min-[470px]:bg-[url('/crew/tablet.jpg')] min-[470px]:min-h-[1120px]
     lg:bg-[url('/crew/desktop.jpg')] lg:min-h-[931px];
 }
 .container_content {
-  @apply flex flex-col pt-[89px] gap-[24px] px-[10px] 
-  min-[470px]:gap-[55px] min-[470px]:pt-[136px] 
-  lg:flex-row  lg:gap-0 lg:px-[5px] lg:justify-end  lg:pt-[188px];
+  @apply flex flex-col-reverse pt-[32px]  px-[10px]  
+  min-[470px]:px-[40px] min-[470px]:pt-[60px] min-[470px]:flex-col 
+  lg:flex-row   lg:gap-0 lg:px-[5px] lg:justify-end lg:pt-0;
 }
 
 .space_1 {
@@ -16,32 +16,42 @@
 .space_2 {
   @apply hidden lg:block lg:grow;
 }
-.space_3 {
-  @apply hidden lg:block lg:grow lg:max-w-[160px];
-}
 
 .section_1 {
-  @apply flex flex-col items-center lg:items-start pt-[30px];
+  @apply flex flex-col items-center
+  lg:items-start lg:pt-[154px];
 }
 .subtitle {
-  @apply opacity-50 text-white font-normal uppercase
+  @apply opacity-50 text-white font-normal  text-[16px] mb-[8px]   uppercase
+  min-[470px]:text-[24px]
   lg:text-[32px];
 }
 .title {
-  @apply text-white text-[56px]  text-center font-normal uppercase  
-  min-[470px]:text-[80px] lg:text-[56px] lg:mb-[27px];
+  @apply text-white text-[24px] font-normal mb-[16px] uppercase  
+  min-[470px]:text-[40px] 
+  lg:text-[56px] lg:mb-[27px];
 }
 
 .text {
   @apply flex flex-col max-w-[327px] text-indigo-200 font-normal leading-[25px] text-[15px] text-center 
-  min-[470px]:max-w-[573px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
+  mb-[40px] 
+  min-[470px]:max-w-[458px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
   lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[109px];
 }
+
 .section_2 {
-  @apply flex justify-center;
+  @apply flex justify-center 
+  lg:mt-[-48px];
 }
 .image {
-  @apply h-[170px] overflow-hidden
-  min-[470px]:h-[300px] 
-  lg:h-[712px];
+  @apply flex h-[222px] overflow-hidden 
+  min-[470px]:h-[572px] 
+  lg:h-[724px];
+}
+.section_3 {
+  @apply flex justify-center overflow-hidden;
+}
+.rectangel {
+  @apply w-[327px] h-[1px] bg-gray-700 mb-[32px]  
+  min-[470px]:hidden;
 }

@@ -7,11 +7,13 @@ import Navigation from './navigation/Navigation';
 const Commander_Page = () => {
   return (
     <div className={styles.main}>
+      <CommonTitle />
       <div className={styles.container_content}>
-        <div className={styles.space_3}></div>
+        <div className={styles.space_1}></div>
         <div className={styles.section_1}>
-          <CommonTitle />
-          <div className={styles.subtitle}>Commander</div>
+          <div className={`${styles.subtitle} ${bellefair.className}`}>
+            Commander
+          </div>
           <div className={`${styles.title} ${bellefair.className}`}>
             Douglas Hurley
           </div>
@@ -21,6 +23,9 @@ const Commander_Page = () => {
             third time as commander of Crew Dragon Demo-2.
           </div>
           <Navigation />
+        </div>
+        <div className={styles.section_3}>
+          <div className={styles.rectangel}></div>
         </div>
         <div className={styles.space_2}></div>
         <div className={styles.section_2}>
@@ -35,7 +40,7 @@ const Commander_Page = () => {
             />
           </div>
         </div>
-        <div className={styles.space_3}></div>
+        <div className={styles.space_1}></div>
       </div>
     </div>
   );
