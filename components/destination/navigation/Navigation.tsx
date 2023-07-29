@@ -8,7 +8,6 @@ import styles from './Navigation.module.css';
 
 const Navigation = () => {
   const pathname = usePathname();
-  console.log('pathname', pathname);
   return (
     <div className={styles.navigation}>
       {destinationLinks.map((item) => {

@@ -4,7 +4,7 @@ import CommonTitle from './common_title/CommonTitle';
 import styles from './Crew_Page.module.css';
 import Navigation from './navigation/Navigation';
 
-const Commander_Page = () => {
+const Specialist_Page = () => {
   return (
     <div className={styles.main}>
       <div className={styles.space_1}></div>
@@ -13,15 +13,16 @@ const Commander_Page = () => {
         <div className={styles.container_content}>
           <div className={styles.section_1}>
             <div className={`${styles.subtitle} ${bellefair.className}`}>
-              Commander
+              Mission Specialist
             </div>
             <div className={`${styles.title} ${bellefair.className}`}>
-              Douglas Hurley
+              Mark Shuttleworth
             </div>
             <div className={styles.text}>
-              Douglas Gerald Hurley is an American engineer, former Marine Corps
-              pilot and former NASA astronaut. He launched into space for the
-              third time as commander of Crew Dragon Demo-2.
+              Mark Richard Shuttleworth is the founder and CEO of Canonical, the
+              company behind the Linux-based Ubuntu operating system.
+              Shuttleworth became the first South African to travel to space as
+              a space tourist.
             </div>
             <Navigation />
           </div>
@@ -32,7 +33,7 @@ const Commander_Page = () => {
           <div className={styles.section_2}>
             <div className={styles.image}>
               <Image
-                src="/crew/image-douglas-hurley.webp"
+                src="/crew/image-mark-shuttleworth.webp"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
@@ -48,4 +49,4 @@ const Commander_Page = () => {
   );
 };
 
-export default Commander_Page;
+export default Specialist_Page;

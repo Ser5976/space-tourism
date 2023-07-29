@@ -1,13 +1,16 @@
 .main {
-  @apply absolute flex flex-col w-full h-full min-h-[710px] min-w-[250px]  left-0 top-0
+  @apply absolute flex flex-col w-full h-full min-h-[710px] min-w-[300px]  left-0 top-0
     bg-[url('/crew/mobile.jpg')] bg-center bg-no-repeat bg-cover
     min-[470px]:bg-[url('/crew/tablet.jpg')] min-[470px]:min-h-[1120px]
-    lg:bg-[url('/crew/desktop.jpg')] lg:min-h-[931px];
+    lg:bg-[url('/crew/desktop.jpg')] lg:min-h-[931px] lg:flex-row;
+}
+.container {
+  @apply flex-col px-[10px] grow;
 }
 .container_content {
-  @apply flex flex-col-reverse pt-[32px]  px-[10px]  
-  min-[470px]:px-[40px] min-[470px]:pt-[60px] min-[470px]:flex-col 
-  lg:flex-row   lg:gap-0 lg:px-[5px] lg:justify-end lg:pt-0;
+  @apply flex flex-col-reverse pt-[32px]   
+  min-[470px]:px-[30px] min-[470px]:pt-[60px] min-[470px]:flex-col 
+  lg:flex-row   lg:px-0 lg:pt-0;
 }
 
 .space_1 {
@@ -19,7 +22,7 @@
 
 .section_1 {
   @apply flex flex-col items-center
-  lg:items-start lg:pt-[154px];
+  lg:items-start lg:max-w-[614px] grow lg:pt-[154px];
 }
 .subtitle {
   @apply opacity-50 text-white font-normal  text-[16px] mb-[8px]   uppercase
@@ -36,7 +39,7 @@
   @apply flex flex-col max-w-[327px] text-indigo-200 font-normal leading-[25px] text-[15px] text-center 
   mb-[40px] 
   min-[470px]:max-w-[458px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
-  lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[109px];
+  lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[99px];
 }
 
 .section_2 {

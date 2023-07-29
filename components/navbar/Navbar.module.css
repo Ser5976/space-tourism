@@ -4,7 +4,7 @@
 }
 
 .header_container {
-  @apply flex justify-between max-w-[375px] min-w-[240px]  px-[24px] mx-auto  
+  @apply flex justify-between max-w-[375px] min-w-[300px]  px-[24px] mx-auto  
   min-[470px]:grow min-[470px]:max-w-none min-[470px]:justify-between min-[470px]:items-center min-[470px]:mx-0 min-[470px]:px-0 min-[470px]:pl-[39px]
   lg:pl-[55px] lg:justify-normal;
 }

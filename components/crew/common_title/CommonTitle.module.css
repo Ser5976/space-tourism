@@ -3,18 +3,12 @@
   min-[470px]:justify-normal  min-[470px]:pl-[38.5px] min-[470px]:pt-[136px]
   lg:pl-0 lg:pt-[212px];
 }
-.space_1 {
-  @apply hidden lg:block lg:grow lg:max-w-[160px];
-}
-.space_2 {
-  @apply hidden lg:block  lg:grow lg:w-[550px];
-}
 
 .container {
   @apply inline-flex  items-start  text-[#FFFFFF] font-normal uppercase 
   gap-[18px] text-[16px] tracking-[2.7px] 
   min-[470px]:gap-[19px] min-[470px]:text-[20px] min-[470px]:tracking-[3.375px] 
-  lg:text-[28px] lg:tracking-[4.725px] lg:gap-[28px] lg:w-[488px] lg:pl-[5px];
+  lg:text-[28px] lg:tracking-[4.725px] lg:gap-[28px];
 }
 .number {
   @apply font-[700px] opacity-25;
