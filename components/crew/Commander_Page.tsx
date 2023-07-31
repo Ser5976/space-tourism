@@ -30,13 +30,17 @@ const Commander_Page = () => {
           </div>
           <div className={styles.space_2}></div>
           <div className={styles.section_2}>
-            <div className={styles.image}>
+            <div
+              className={` h-[222px] w-[177.123px] 
+              min-[470px]:mt-[27px] min-[470px]:h-[572px] min-[470px]:w-[456.372px] 
+              lg:h-[723px] lg:w-[568.072px] lg:mt-[-46px] `}
+            >
               <Image
                 src="/crew/image-douglas-hurley.webp"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
                 priority
               />
             </div>

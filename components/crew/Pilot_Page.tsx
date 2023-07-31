@@ -4,7 +4,7 @@ import CommonTitle from './common_title/CommonTitle';
 import styles from './Crew_Page.module.css';
 import Navigation from './navigation/Navigation';
 
-const Specialist_Page = () => {
+const Pilot_Page = () => {
   return (
     <div className={styles.main}>
       <div className={styles.space_1}></div>
@@ -13,16 +13,16 @@ const Specialist_Page = () => {
         <div className={styles.container_content}>
           <div className={styles.section_1}>
             <div className={`${styles.subtitle} ${bellefair.className}`}>
-              Mission Specialist
+              Pilot
             </div>
             <div className={`${styles.title} ${bellefair.className}`}>
-              Mark Shuttleworth
+              Victor Glover
             </div>
             <div className={styles.text}>
-              Mark Richard Shuttleworth is the founder and CEO of Canonical, the
-              company behind the Linux-based Ubuntu operating system.
-              Shuttleworth became the first South African to travel to space as
-              a space tourist.
+              Pilot on the first operational flight of the SpaceX Crew Dragon to
+              the International Space Station. Glover is a commander in the U.S.
+              Navy where he pilots an F/A-18.He was a crew member of Expedition
+              64, and served as a station systems flight engineer.
             </div>
             <Navigation />
           </div>
@@ -32,17 +32,16 @@ const Specialist_Page = () => {
           <div className={styles.space_2}></div>
           <div className={styles.section_2}>
             <div
-              className={`${styles.image} h-[222px] w-[153.92px] 
-              min-[470px]:mt-[40px] min-[470px]:w-[368.853px] min-[470px]:h-[532px] 
-              lg:h-[654px] lg:w-[453.44px] lg:mt-[23px]`}
-              // lg:h-[554px] lg:w-[353.44px]
+              className={`${styles.image} h-[222px] w-[180.726px] 
+              min-[470px]:mt-[40px] min-[470px]:w-[433.09px] min-[470px]:h-[532px] 
+               lg:w-[567.39px] lg:h-[667px] lg:mt-[10px] `}
             >
               <Image
-                src="/crew/image-mark-shuttleworth.webp"
+                src="/crew/image-victor-glover.webp"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover "
                 priority
               />
             </div>
@@ -54,4 +53,4 @@ const Specialist_Page = () => {
   );
 };
 
-export default Specialist_Page;
+export default Pilot_Page;

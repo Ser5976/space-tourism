@@ -9,7 +9,7 @@
 }
 .container_content {
   @apply flex flex-col-reverse pt-[32px]   
-  min-[470px]:px-[30px] min-[470px]:pt-[60px] min-[470px]:flex-col 
+   min-[470px]:pt-[60px] min-[470px]:flex-col 
   lg:flex-row   lg:px-0 lg:pt-0;
 }
 
@@ -22,7 +22,7 @@
 
 .section_1 {
   @apply flex flex-col items-center
-  lg:items-start lg:max-w-[614px] grow lg:pt-[154px];
+  lg:items-start lg:max-w-[614px] lg:pt-[154px];
 }
 .subtitle {
   @apply opacity-50 text-white font-normal  text-[16px] mb-[8px]   uppercase
@@ -39,17 +39,14 @@
   @apply flex flex-col max-w-[327px] text-indigo-200 font-normal leading-[25px] text-[15px] text-center 
   mb-[40px] 
   min-[470px]:max-w-[458px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
-  lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[99px];
+  lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[79px];
 }
 
 .section_2 {
-  @apply flex justify-center 
-  lg:mt-[-48px];
+  @apply flex justify-center;
 }
 .image {
-  @apply flex h-[222px] overflow-hidden 
-  min-[470px]:h-[572px] 
-  lg:h-[724px];
+  @apply flex overflow-hidden;
 }
 .section_3 {
   @apply flex justify-center overflow-hidden;

@@ -16,5 +16,5 @@ export const crewLinks: ICrewLinks[] = [
   { href: '/crew' },
   { href: '/crew/specialist' },
   { href: '/crew/pilot' },
-  { href: '/crew/flight_engineer' },
+  { href: '/crew/engineer' },
 ];
