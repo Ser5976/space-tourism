@@ -1,0 +1,15 @@
+.navigation {
+  @apply flex w-[152px] h-[40px] gap-[16px] mb-[26px] mt-[35px]
+  min-[470px]:mb-[44px] min-[470px]:w-[210px] min-[470px]:h-[60px] min-[470px]:mt-[57px]
+  xl:flex-col xl:order-first xl:items-end xl:w-[80px] xl:h-[304px] xl:gap-[32px] xl:mb-0 xl:mt-[137px];
+}
+
+.wrapper {
+  @apply flex w-[40px] h-[40px] rounded-full border border-white items-center justify-center
+   text-white  text-[16px] font-normal tracking-[1px] leading-normal
+   min-[470px]:w-[60px] min-[470px]:h-[60px] min-[470px]:text-[24px] min-[470px]:tracking-[1.5px]
+  xl:w-[80px] xl:h-[80px] xl:text-[32px] xl:tracking-[2px];
+}
+.wrapper_active {
+  @apply bg-white  text-[#0B0D17];
+}

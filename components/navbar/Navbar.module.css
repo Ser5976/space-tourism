@@ -1,16 +1,16 @@
 .header {
   @apply absolute w-full z-20
-  min-[470px]:flex min-[470px]:h-[96px] lg:top-[40px];
+  min-[470px]:flex min-[470px]:h-[96px] xl:top-[40px];
 }
 
 .header_container {
   @apply flex justify-between max-w-[375px] min-w-[300px]  px-[24px] mx-auto  
   min-[470px]:grow min-[470px]:max-w-none min-[470px]:justify-between min-[470px]:items-center min-[470px]:mx-0 min-[470px]:px-0 min-[470px]:pl-[39px]
-  lg:pl-[55px] lg:justify-normal;
+  xl:pl-[55px] xl:justify-normal;
 }
 
 .logo_container {
-  @apply w-[90px] lg:w-[111px];
+  @apply w-[90px] xl:w-[111px];
 }
 .logo {
   @apply bg-[#FFFFFF] rounded-full w-[40px] h-[40px] mt-[24px]  
@@ -20,6 +20,6 @@
   @apply hidden min-[470px]:grow;
 }
 .rectangel {
-  @apply hidden lg:block lg:grow lg:w-[473px] lg:bg-[#FFFFFF] lg:mix-blend-normal lg:self-center lg:mr-[-30px]
-  lg:h-[1px] lg:opacity-[0.2514851987361908];
+  @apply hidden xl:block xl:grow xl:w-[473px] xl:bg-[#FFFFFF] xl:mix-blend-normal xl:self-center xl:mr-[-30px]
+  xl:h-[1px] xl:opacity-[0.2514851987361908];
 }

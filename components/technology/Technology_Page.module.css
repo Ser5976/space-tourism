@@ -1,0 +1,49 @@
+.main {
+  @apply absolute flex flex-col w-full h-full min-h-[710px] min-w-[300px]  left-0 top-0
+    bg-[url('/technology/mobile.jpg')] bg-center bg-no-repeat bg-cover
+    min-[470px]:bg-[url('/technology/tablet.jpg')] min-[470px]:min-h-[1120px] lg:min-h-[1220px]
+    xl:bg-[url('/technology/desktop.jpg')] xl:min-h-[931px] xl:flex-row;
+}
+.container {
+  @apply flex flex-col grow;
+}
+.container_content {
+  @apply flex flex-col-reverse pt-[32px] items-center   
+   min-[470px]:pt-[60px]  
+  xl:grow xl:flex-row xl:pt-0 xl:items-start;
+}
+
+.space_1 {
+  @apply hidden xl:block xl:grow xl:max-w-[160px];
+}
+.space_2 {
+  @apply hidden xl:block xl:w-[80px];
+}
+
+.section_1 {
+  @apply flex flex-col items-center px-[10px]
+xl:pt-[137px] xl:items-start;
+}
+.subtitle {
+  @apply opacity-50 text-white font-normal  text-[14px] tracking-[2.362px] mb-[12px] leading-normal   uppercase
+  min-[470px]:text-[16px] min-[470px]:tracking-[2.7px];
+}
+
+.title {
+  @apply text-white text-[24px] font-normal mb-[16px] uppercase  
+  min-[470px]:text-[40px] 
+  xl:w-[470px] xl:text-[56px] xl:mb-[17px];
+}
+
+.text {
+  @apply flex flex-col max-w-[327px] text-indigo-200 font-normal leading-[25px] text-[15px] text-center  
+  min-[470px]:max-w-[458px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
+  xl:text-[18px] xl:leading-[32px] xl:text-left xl:w-[444px];
+}
+
+.section_2 {
+  @apply flex w-full xl:justify-end xl:pt-[26px];
+}
+.image {
+  @apply overflow-hidden;
+}

@@ -12,6 +12,10 @@ export interface IDestinationLinks {
 export interface ICrewLinks {
   href: string;
 }
+export interface ITechnologyLinks {
+  number: string;
+  href: string;
+}
 export interface ICommonTitle {
   number: string;
   description: string;

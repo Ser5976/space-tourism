@@ -2,23 +2,23 @@
   @apply hidden
   min-[470px]:flex bg-white bg-opacity-10 backdrop-blur-[15.55px] 
   min-[470px]:w-[450px] min-[470px]:h-[96px] min-[470px]:gap-[20px] min-[550px]:gap-[42px] 
-  lg:w-[830px] lg:h-[96px] lg:gap-[50px];
+  xl:w-[830px] xl:h-[96px] xl:gap-[50px];
 }
 
 .wrapper {
   @apply min-[470px]:flex min-[470px]:gap-[12px] min-[470px]:items-center min-[470px]:text-[14px] min-[470px]:leading-[17px] min-[470px]:tracking-[2.3625px]  
   min-[470px]:uppercase min-[470px]:text-[#FFFFFF] min-[470px]:font-normal
-  lg:text-[16px] lg:leading-[19px] lg:tracking-[2.7px];
+  xl:text-[16px] xl:leading-[19px] xl:tracking-[2.7px];
 }
 .wrapper:first-child {
-  @apply min-[470px]:ml-[48px] lg:ml-[85px];
+  @apply min-[470px]:ml-[48px] xl:ml-[85px];
 }
 .wrapper:last-child {
-  @apply min-[470px]:mr-0 lg:mr-[25px];
+  @apply min-[470px]:mr-0 xl:mr-[25px];
 }
 .wrapper_number {
   @apply hidden
-  lg:block lg:font-[700];
+  xl:block xl:font-[700];
 }
 .wrapper_active {
   @apply min-[470px]:border-b-[3px] min-[470px]:border-[#FFFFFF];

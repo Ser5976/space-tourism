@@ -1,4 +1,9 @@
-import { IHeaderLinks, IDestinationLinks, ICrewLinks } from '@/types/types';
+import {
+  IHeaderLinks,
+  IDestinationLinks,
+  ICrewLinks,
+  ITechnologyLinks,
+} from '@/types/types';
 
 export const headerLinks: IHeaderLinks[] = [
   { link: 'home', number: '00', href: '/' },
@@ -17,4 +22,9 @@ export const crewLinks: ICrewLinks[] = [
   { href: '/crew/specialist' },
   { href: '/crew/pilot' },
   { href: '/crew/engineer' },
+];
+export const technologyLinks: ITechnologyLinks[] = [
+  { number: '1', href: '/technology' },
+  { number: '2', href: '/technology/port' },
+  { number: '3', href: '/technology/capsule' },
 ];
