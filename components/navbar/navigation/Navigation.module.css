@@ -1,6 +1,6 @@
 .nav {
   @apply hidden
-  min-[470px]:flex bg-white bg-opacity-10 backdrop-blur-[15.55px] 
+  min-[470px]:flex bg-white bg-opacity-10 backdrop-blur-[25.55px] 
   min-[470px]:w-[450px] min-[470px]:h-[96px] min-[470px]:gap-[20px] min-[550px]:gap-[42px] 
   xl:w-[830px] xl:h-[96px] xl:gap-[50px];
 }

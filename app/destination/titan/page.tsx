@@ -1,4 +1,4 @@
-import TitanPage from '@/components/destination/Titan_Page copy';
+import TitanPage from '@/components/destination/Titan_Page';
 
 const Titan = () => {
   return <TitanPage />;

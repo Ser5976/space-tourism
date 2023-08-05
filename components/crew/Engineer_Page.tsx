@@ -34,7 +34,7 @@ const Pilot_Page = () => {
             <div
               className={`${styles.image} h-[223px] w-[226.147px] 
               min-[470px]:mt-[40px] min-[470px]:w-[539.508px]  min-[470px]:h-[532px] 
-              lg:h-[607px] lg:w-[539.5px] lg:mt-[70px]`}
+              xl:h-[607px] xl:w-[539.5px] xl:mt-[70px]`}
             >
               <Image
                 src="/crew/image-anousheh-ansari.webp"

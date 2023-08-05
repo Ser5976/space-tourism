@@ -4,7 +4,7 @@ import CommonTitle from './common_title/CommonTitle';
 import styles from './Technology_Page.module.css';
 import Navigation from './navigation/Navigation';
 
-const Launch_Page = () => {
+const Capsule_Page = () => {
   return (
     <div className={styles.main}>
       <div className={styles.space_1}></div>
@@ -17,14 +17,14 @@ const Launch_Page = () => {
               The Terminology…
             </div>
             <div className={`${styles.title} ${bellefair.className}`}>
-              Launch Vehicle
+              SPACE CAPSULE
             </div>
             <div className={styles.text}>
-              A launch vehicle or carrier rocket is a rocket-propelled vehicle
-              used to carry a payload from Earth's surface to space, usually to
-              Earth orbit or beyond. Our WEB-X carrier rocket is the most
-              powerful in operation. Standing 150 metres tall, it's quite an
-              awe-inspiring sight on the launch pad!
+              A space capsule is an often-crewed spacecraft that uses a
+              blunt-body reentry capsule to reenter the Earth's atmosphere
+              without wings. Our capsule is where you'll spend your time during
+              the flight. It includes a space gym, cinema, and plenty of other
+              activities to keep you entertained.
             </div>
           </div>
           <Navigation />
@@ -34,7 +34,7 @@ const Launch_Page = () => {
               className={`${styles.image} h-[170px] w-full min-[470px]:h-[410px] lg:h-[510px] xl:w-[515px] xl:h-[527px]`}
             >
               <Image
-                src="/technology/image-launch-landscape.jpg"
+                src="/technology/image-capsule-landscape.jpg"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
@@ -42,7 +42,7 @@ const Launch_Page = () => {
                 priority
               />
               <Image
-                src="/technology/image-launch-portrait.jpg"
+                src="/technology/image-capsule-portrait.jpg"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
@@ -57,4 +57,4 @@ const Launch_Page = () => {
   );
 };
 
-export default Launch_Page;
+export default Capsule_Page;

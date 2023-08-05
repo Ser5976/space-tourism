@@ -1,14 +1,14 @@
 .common_title {
   @apply w-full pt-[89px] flex justify-center
   min-[470px]:justify-normal  min-[470px]:pl-[38.5px] min-[470px]:pt-[136px]
-  lg:pl-0 lg:pt-[212px];
+  xl:pl-0 xl:pt-[212px];
 }
 
 .container {
   @apply inline-flex  items-start  text-[#FFFFFF] font-normal uppercase 
   gap-[18px] text-[16px] tracking-[2.7px] 
   min-[470px]:gap-[19px] min-[470px]:text-[20px] min-[470px]:tracking-[3.375px] 
-  lg:text-[28px] lg:tracking-[4.725px] lg:gap-[28px];
+  xl:text-[28px] xl:tracking-[4.725px] xl:gap-[28px];
 }
 .number {
   @apply font-[700px] opacity-25;

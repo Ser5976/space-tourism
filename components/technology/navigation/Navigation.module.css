@@ -1,6 +1,6 @@
 .navigation {
   @apply flex w-[152px] h-[40px] gap-[16px] mb-[26px] mt-[35px]
-  min-[470px]:mb-[44px] min-[470px]:w-[210px] min-[470px]:h-[60px] min-[470px]:mt-[57px]
+  min-[470px]:mb-[44px] min-[470px]:w-[210px] min-[470px]:h-[60px] min-[470px]:mt-[56px]
   xl:flex-col xl:order-first xl:items-end xl:w-[80px] xl:h-[304px] xl:gap-[32px] xl:mb-0 xl:mt-[137px];
 }
 

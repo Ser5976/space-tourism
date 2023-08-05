@@ -22,15 +22,16 @@
 
 .section_1 {
   @apply flex flex-col items-center px-[10px]
-xl:pt-[137px] xl:items-start;
+  min-[470px]:gap-[16px]
+xl:pt-[137px] xl:items-start xl:gap-0;
 }
 .subtitle {
-  @apply opacity-50 text-white font-normal  text-[14px] tracking-[2.362px] mb-[12px] leading-normal   uppercase
+  @apply text-[#D0D6F9] font-normal  text-[14px] tracking-[2.362px]  leading-normal   uppercase
   min-[470px]:text-[16px] min-[470px]:tracking-[2.7px];
 }
 
 .title {
-  @apply text-white text-[24px] font-normal mb-[16px] uppercase  
+  @apply text-white text-[24px] font-normal  uppercase  
   min-[470px]:text-[40px] 
   xl:w-[470px] xl:text-[56px] xl:mb-[17px];
 }

@@ -34,8 +34,7 @@ const Specialist_Page = () => {
             <div
               className={`${styles.image} h-[222px] w-[153.92px] 
               min-[470px]:mt-[40px] min-[470px]:w-[368.853px] min-[470px]:h-[532px] 
-              lg:h-[654px] lg:w-[453.44px] lg:mt-[23px]`}
-              // lg:h-[554px] lg:w-[353.44px]
+              xl:h-[654px] xl:w-[453.44px] xl:mt-[23px]`}
             >
               <Image
                 src="/crew/image-mark-shuttleworth.webp"

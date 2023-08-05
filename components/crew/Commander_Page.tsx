@@ -33,7 +33,7 @@ const Commander_Page = () => {
             <div
               className={`${styles.image} h-[222px] w-[177.123px] 
               min-[470px]:mt-[27px] min-[470px]:h-[572px] min-[470px]:w-[456.372px] 
-              lg:h-[723px] lg:w-[568.072px] lg:mt-[-46px] `}
+              xl:h-[723px] xl:w-[568.072px] xl:mt-[-46px] `}
             >
               <Image
                 src="/crew/image-douglas-hurley.webp"

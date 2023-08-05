@@ -34,14 +34,14 @@ const Pilot_Page = () => {
             <div
               className={`${styles.image} h-[222px] w-[180.726px] 
               min-[470px]:mt-[40px] min-[470px]:w-[433.09px] min-[470px]:h-[532px] 
-               lg:w-[567.39px] lg:h-[667px] lg:mt-[10px] `}
+               xl:w-[554.388px] xl:h-[681px] xl:mt-[-4px]`}
             >
               <Image
                 src="/crew/image-victor-glover.webp"
                 alt="фоновая картинка"
                 width={445}
                 height={445}
-                className="w-full h-full object-cover "
+                className="w-full h-full object-cover object-left  "
                 priority
               />
             </div>

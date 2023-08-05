@@ -1,12 +1,12 @@
 .navigation {
   @apply flex w-[88px] h-2.5 gap-[17px]  order-first mb-[32px]
   min-[470px]:order-last min-[470px]:mb-[40px]
-  lg:w-[132px] lg:h-[15px]  lg:gap-[23px] lg:mb-0;
+  xl:w-[132px] xl:h-[15px]  xl:gap-[23px] xl:mb-0;
 }
 
 .wrapper {
   @apply w-2.5 h-2.5 rounded-full bg-white opacity-20
-  lg:w-[15px] lg:h-[15px];
+  xl:w-[15px] xl:h-[15px];
 }
 .wrapper_active {
   @apply opacity-100;

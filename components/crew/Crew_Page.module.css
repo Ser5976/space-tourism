@@ -2,44 +2,44 @@
   @apply absolute flex flex-col w-full h-full min-h-[710px] min-w-[300px]  left-0 top-0
     bg-[url('/crew/mobile.jpg')] bg-center bg-no-repeat bg-cover
     min-[470px]:bg-[url('/crew/tablet.jpg')] min-[470px]:min-h-[1120px]
-    lg:bg-[url('/crew/desktop.jpg')] lg:min-h-[931px] lg:flex-row;
+    xl:bg-[url('/crew/desktop.jpg')] xl:min-h-[931px] xl:flex-row;
 }
 .container {
-  @apply flex-col px-[10px] grow;
+  @apply flex flex-col  grow;
 }
 .container_content {
-  @apply flex flex-col-reverse pt-[32px]   
-   min-[470px]:pt-[60px] min-[470px]:flex-col 
-  lg:flex-row   lg:px-0 lg:pt-0;
+  @apply grow flex flex-col-reverse pt-[32px] px-[10px] justify-end   
+   min-[470px]:pt-[60px] min-[470px]:flex-col min-[470px]:justify-between
+  xl:flex-row   xl:px-0 xl:pt-0;
 }
 
 .space_1 {
-  @apply hidden lg:block lg:grow lg:max-w-[160px];
+  @apply hidden xl:block xl:grow xl:max-w-[160px];
 }
 .space_2 {
-  @apply hidden lg:block lg:grow;
+  @apply hidden xl:block xl:grow;
 }
 
 .section_1 {
   @apply flex flex-col items-center
-  lg:items-start lg:max-w-[614px] lg:pt-[154px];
+  xl:items-start  xl:pt-[154px];
 }
 .subtitle {
   @apply opacity-50 text-white font-normal  text-[16px] mb-[8px]   uppercase
   min-[470px]:text-[24px]
-  lg:text-[32px];
+  xl:text-[32px] xl:mb-[15px];
 }
 .title {
   @apply text-white text-[24px] font-normal mb-[16px] uppercase  
   min-[470px]:text-[40px] 
-  lg:text-[56px] lg:mb-[27px];
+  xl:text-[56px] xl:mb-[27px];
 }
 
 .text {
   @apply flex flex-col max-w-[327px] text-indigo-200 font-normal leading-[25px] text-[15px] text-center 
   mb-[40px] 
   min-[470px]:max-w-[458px] min-[470px]:text-[16px] min-[470px]:leading-[28px]
-  lg:max-w-[444px] lg:text-lg lg:leading-loose lg:text-left lg:mb-[79px];
+  xl:w-[444px] xl:text-[18px] xl:leading-[32px] xl:text-left xl:mb-[88px];
 }
 
 .section_2 {
